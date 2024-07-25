@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.header{
+    background: #14161D;
+    height: 95px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image-logo{
+    margin-right: 197px;
+    margin-left: 43px;
+    margin-top: 16px;
+    width: 60px;
+    height: 62S35px;
+    top: 16px;
+    left: 43px;
+}
+.search input{
+    width: 670px;
+    height: 35px;
+    border-radius: 25px;
+    opacity: 0.2px;
+    background: #484848;
+    border: 1px;
+    padding: 10px;
+    color:#FFFFFF80;
+    opacity: 50%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    .img{
+        position:absolute;
+        z-index: 1;
+        left: 63.5vh;
+    }
+}
+
+.background{
+    width: 100vw;
+    height: 160vh;
+    background: #181b24;
+    background-color: #181B24;
+    display: flex;
+    justify-content: space-between;
+}
+
+.centro{
+    flex-direction: column;
+    width: 670px;
+    margin-top: 36px;
+}
+
+.postar{
+    border: 1px solid #484848;
+    border-radius: 10px;
+    padding: 20px 31px 20px 31px;
+    height: 142px;
+}
+
+.postar p{
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 50px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#botao_postar{
+    justify-self: end;
+    background-color: #22A2F2;
+    width: 98px;
+    color: #000;
+    font-size: 0.75em;
+    font-weight: 600;
+    border-radius: 10px;
+    padding:13px 30px 12px 30px;
+    margin: 0 0 0 auto;
+    border:0px solid;
+}
+
+.post{
+    border: 1px solid #484848;
+    padding: 47px 73px 20px 97px;
+    margin-top: 30px;
+    border-radius: 15px;
+    height: 665px;
+    align-content: center;
+    
+}
+
+.perfilint{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.fotopost{
+    width: 100%;
+}
+
+.perfil{
+    width: 50px;
+    height: 50px;
+    top: 561px;
+    left: 97px;
+    gap: 0px;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+
+.interacoes{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.interacoes h3{
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-right: 186px;
+    margin-left:10px;
+}
+
+.post p{
+    font-size: 1em;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+}
+
+.icon{
+    width: 47.56px;
+    height: 44.92px;
+    margin-bottom: 20px;
+}
+
+.direita{
+    width: 311px;
+    margin-right: 150px;
+    margin-top: 36px;
+    justify-content: space-between;
+}
+
+.direita h2{
+    font-size: 1.5em;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+
+.usuarios{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 16px;
+    justify-content: flex-start;
+}
+
+.usuarios h3{
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-right: 60px;
+    margin-left: 10px;
+    
+}
+
+.usuarios button{
+    border-radius: 15px;
+    background-color: #222;
+    color: #22A2F2;
+    font-size: 1em;
+    font-weight: 400;
+    border: none;
+    padding: 12px;
+}
